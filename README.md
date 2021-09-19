@@ -12,7 +12,7 @@ nvm install v14
 
 ## Quick Start
 Start NewProject:
-``
+```
 git clone --depth=1 git@github.com:FedyaNyet/React-Skeleton.git NewProject
 cd !$
 git remote rm origin
