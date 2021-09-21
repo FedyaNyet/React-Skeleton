@@ -14,8 +14,12 @@ nvm install v14
 Start NewProject:
 ``
 git clone git@github.com:FedyaNyet/React-Skeleton.git NewProject
-cd !$
-rm -rf .git
+cd !$ && rm -rf .git
 npm i
 npm run start
 ```
+
+## Deploy
+To deploy your project, use heroku and hook it up to github. Then use the 
+create-react-app buildback to build and publish:
+https://buildpack-registry.s3.amazonaws.com/buildpacks/mars/create-react-app.tgz 
