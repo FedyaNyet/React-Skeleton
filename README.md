@@ -13,9 +13,9 @@ nvm install v14
 ## Quick Start
 Start NewProject:
 ``
-git clone --depth=1 git@github.com:FedyaNyet/React-Skeleton.git NewProject
+git clone git@github.com:FedyaNyet/React-Skeleton.git NewProject
 cd !$
-git remote rm origin
+rm -rf .git
 npm i
 npm run start
 ```
